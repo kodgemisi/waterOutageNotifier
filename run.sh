@@ -8,6 +8,8 @@ fi
 
 outage=$(casperjs checkForOutage.js);
 
+echo "running for room with name: $1";
+
 if [[ $outage == *"found results 0"* ]]
 then
 	exit;
