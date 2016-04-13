@@ -14,7 +14,7 @@ if [[ $outage == *"found results 0"* ]]
 then
 	exit;
 else
-	if [[ $outage == *"KARŞIYAKA"* ]]
+	if [[ $outage == *"KARSİYAKA"* ]]
 	then
 		ROOM_ID=$1
 		AUTH_TOKEN=$2
