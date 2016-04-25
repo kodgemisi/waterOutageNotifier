@@ -6,7 +6,7 @@ if [ $# != 2 ]
     exit 1;	
 fi
 
-outage=$(casperjs checkForOutage.js);
+outage=$(casperjs /waterOutageNotifier/checkForOutage.js);
 
 echo "running for room with name: $1";
 
